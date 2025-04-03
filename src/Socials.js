@@ -1,9 +1,9 @@
 export function Socials() {
     return (
-        <links>
-            <li><a href="x.com">X</a></li>
-            <li><a href="instagram.com">Instagram</a></li>
-            <li><a href="facebook.com">Facebook</a></li >
-        </links>
-    )
+        <ul className="socials">
+            <li><a href="https://x.com" target="_blank" rel="noopener noreferrer">X</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        </ul>
+    );
 }

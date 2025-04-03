@@ -1,16 +1,10 @@
 export function Contact() {
     return (
-        <address>
+        <address className="contact">
             <h3>Contact</h3>
-            <div>
-                123 Cleveland Rd
-            </div>
-            <div>
-                555 555-5555
-            </div>
-            <div>
-                email@exapmle.com
-            </div>
+            <div>123 Cleveland Rd</div>
+            <div>555 555-5555</div>
+            <div>email@example.com</div>
         </address>
-    )
+    );
 }

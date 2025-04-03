@@ -1,18 +1,18 @@
-import './App.css';
 import React from 'react';
 import { Header } from './Header';
 import { Nav } from './Nav'
 import { Main } from './Main';
 import { Footer } from './Footer';
+import './App.css'
 
 function App() {
   return (
-    <React.Fragment>
+    <div className='body'>
       <Header />
-      <Nav />
       <Main />
-      <Footer />
-    </React.Fragment>
+      {/* <Footer /> */}
+    </div>
+
   );
 }
 

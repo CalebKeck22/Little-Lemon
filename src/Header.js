@@ -1,11 +1,14 @@
 import logo from './logo.jpg'
+import { Nav } from './Nav'
+import { Login } from './Login'
+
+
 export function Header() {
     return (
-        <>
-            <header>
-                <h1>Little Lemon</h1>
-                <img src={logo} alt="logo" />;
-            </header>
-        </>
+        <header className='header'>
+            <img src={logo} alt="logo" />
+            <Nav />
+            <Login />
+        </header>
     )
 }

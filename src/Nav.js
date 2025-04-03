@@ -2,6 +2,8 @@ import { Links } from './Links.js'
 
 export function Nav() {
     return (
-        <Links />
-    )
+        <nav className="nav">
+            <Links />
+        </nav>
+    );
 }
