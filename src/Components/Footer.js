@@ -1,4 +1,4 @@
-import smallLogo from './smallLogo.png'
+import smallLogo from '../smallLogo.png'
 import { Links } from './Links'
 import { Contact } from './Contact'
 import { Socials } from './Socials'
