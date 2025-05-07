@@ -1,0 +1,23 @@
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+}

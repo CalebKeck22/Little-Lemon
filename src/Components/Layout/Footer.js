@@ -1,7 +1,8 @@
-import smallLogo from '../smallLogo.png'
+import smallLogo from '../../assets/images/smallLogo.png'
 import { Links } from './Links'
 import { Contact } from './Contact'
 import { Socials } from './Socials'
+import '../../assets/styles/Footer.css'
 
 export function Footer() {
     return (

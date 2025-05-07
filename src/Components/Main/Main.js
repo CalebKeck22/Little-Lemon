@@ -1,3 +1,4 @@
+import React from "react";
 import { Description } from "./Description";
 import { MainImage } from "./MainImage";
 import { Card } from "./Card";

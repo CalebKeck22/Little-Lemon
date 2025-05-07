@@ -1,0 +1,21 @@
+.reserve-button {
+    background-color: #ffcc00;
+    color: darkolivegreen;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reserve-button:hover {
+    background-color: #ffaa00;
+    color: white;
+}
+
+.reserve-button:active {
+    background-color: #ff9900;
+    transform: scale(0.98);
+}

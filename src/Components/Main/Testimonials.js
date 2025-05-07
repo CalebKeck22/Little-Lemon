@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../assets/styles/Testimonials.css'
 
 export function Testimonials() {
     const testimonials = [
