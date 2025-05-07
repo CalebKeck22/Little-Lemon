@@ -1,6 +1,6 @@
-import lemonade from '../lemonade.jpg';
-import pie from '../banana-pie.jpg';
-import icecream from '../ice-cream.jpeg';
+import lemonade from '../../assets/images/lemonade.jpg';
+import pie from '../../assets/images/banana-pie.jpg';
+import icecream from '../../assets/images/lemonade.jpg';
 
 export const cardData = [
     {

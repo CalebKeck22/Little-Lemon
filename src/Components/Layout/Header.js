@@ -1,6 +1,7 @@
-import logo from '../logo.jpg'
+import logo from '../../assets/images/logo.jpg'
 import { Nav } from './Nav'
-import { Login } from './Login'
+import { Login } from '../Login/Login'
+import '../../assets/styles/Header.css'
 
 
 export function Header() {

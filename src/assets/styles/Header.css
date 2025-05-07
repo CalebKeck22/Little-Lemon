@@ -1,0 +1,48 @@
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1vw;
+    background-color: white;
+}
+
+.header img {
+    padding-right: 5vw;
+    height: 3vh;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.nav ul li a:hover {
+    color: darkolivegreen;
+}
+
+.login-link {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+.login-link:hover {
+    background-color: darkolivegreen;
+    color: white;
+}

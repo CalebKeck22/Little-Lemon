@@ -1,5 +1,6 @@
 import React from 'react';
-import mainLogo from '../main-logo.png';
+import mainLogo from '../../assets/images/main-logo.png';
+import '../../assets/styles/Main.css'
 
 export function MainImage() {
     return (
