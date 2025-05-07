@@ -59,6 +59,16 @@
     transform: translateY(1px);
 }
 
+.input-error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
 @media (max-width: 768px) {
     .booking-form {
         padding: 20px;
